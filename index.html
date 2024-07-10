@@ -5,26 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melhores Hotéis</title>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('img/fotodefundo.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .menu-secundario {
+            background-color: #d1c1b4; /* Cor de fundo para cabeçalho secundário */
+            padding: 30px;
+            text-align: center;
+            margin: 10px 0;
+            position: relative; /* Permite posicionar elementos filhos relativamente a este cabeçalho */
+
+        }
+
+        .texto-sobre-imagem {
+            position: absolute; /* Posiciona o conteúdo de forma absoluta dentro do cabeçalho */
+            top: 50%; /* Move o conteúdo para o topo em 50% da altura do cabeçalho */
+            left: 50%; /* Move o conteúdo para a esquerda em 50% da largura do cabeçalho */
+            transform: translate(-50%, -50%); /* Centraliza o conteúdo completamente */
+            color: white; 
+        }
+
+    </style>
 </head>
 <body>
+
     <!-- Cabeçalho -->
     <header class="menu-principal">
         <div class="header-1">
             <div class="logo">
-                <img src="img/logo.png" alt="Logo do site">
+                <img src="img/logo inicial .jpg" alt="Logotipo do site">
             </div>
-            <div class="redes-sociais"> <!-- Corrigido: removi o espaço no nome da classe -->
+            <div class="redes-sociais"> 
                 <ul>
-                    <li><img src="img/menu4.png" class="menu-img"></li>
+                    <li><img src="img/menu4.png" class="menu-img" alt="Ícone de menu"></li>
                 </ul>
             </div>
         </div>
     </header>
-    <div>
-        
-    </div>
-    <h1>Melhores Hotéis da Região</h1>
 
+    <!-- Cabeçalho secundário -->
+    <header class="menu-secundario">
+        <div class="texto-sobre-imagem">
+            <h2><strong>As melhores estadias para você</strong></h2><br>
+            <br>
+            <img src="img/logobusca2.png" alt="Logotipo de busca">
+        </div>
+    </header>
+    
+    <!-- Navegação -->
     <nav>
         <ul>
             <li><a href="#home">Início</a></li>
@@ -56,5 +94,7 @@
     <footer>
         <p>&copy; 2024 Melhores Hotéis. Todos os direitos reservados.</p>
     </footer>
+
 </body>
 </html>
+
