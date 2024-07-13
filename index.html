@@ -1,100 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Melhores Hotéis</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <style>
-        body {
-            width: 100%;
-            height: 100%;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-image: url('img/fotodefundo.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
 
-        .menu-secundario {
-            background-color: #d1c1b4; /* Cor de fundo para cabeçalho secundário */
-            padding: 30px;
-            text-align: center;
-            margin: 10px 0;
-            position: relative; /* Permite posicionar elementos filhos relativamente a este cabeçalho */
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HOSPEDIA</title>
+        <link rel="stylesheet" href="/css/styles1.css">
+        <link rel="icon" href="/img/favicon-16x16.png">
 
-        }
+        
+    </head>
 
-        .texto-sobre-imagem {
-            position: absolute; /* Posiciona o conteúdo de forma absoluta dentro do cabeçalho */
-            top: 50%; /* Move o conteúdo para o topo em 50% da altura do cabeçalho */
-            left: 50%; /* Move o conteúdo para a esquerda em 50% da largura do cabeçalho */
-            transform: translate(-50%, -50%); /* Centraliza o conteúdo completamente */
-            color: white; 
-        }
+    <body>
 
-    </style>
-</head>
-<body>
+        <div class="container">
 
-    <!-- Cabeçalho -->
-    <header class="menu-principal">
-        <div class="header-1">
-            <div class="logo">
-                <img src="img/logo inicial .jpg" alt="Logotipo do site">
-            </div>
-            <div class="redes-sociais"> 
-                <ul>
-                    <li><img src="img/menu4.png" class="menu-img" alt="Ícone de menu"></li>
-                </ul>
-            </div>
-        </div>
-    </header>
-
-    <!-- Cabeçalho secundário -->
-    <header class="menu-secundario">
-        <div class="texto-sobre-imagem">
-            <h2><strong>As melhores estadias para você</strong></h2><br>
-            <br>
-            <img src="img/logobusca2.png" alt="Logotipo de busca">
-        </div>
-    </header>
+            <header>
+                <div class="header-1">
+                    <div class="logo">
+                        <a href="home.html"> <img src="img/logo inicial .jpg" alt="Logotipo do site"> </a>
+                    </div>
+                    <div> 
+                         <a href="#link do menu"> <img src="img/menu4.png" class="menu-img" alt="Ícone de menu"> </a>
+                    </div>
+                </div>   
+            </header>
     
-    <!-- Navegação -->
-    <nav>
-        <ul>
-            <li><a href="#home">Início</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#contact">Contato</a></li>
-        </ul>
-    </nav>
+    
+            <nav class="navBar">
+                <div class="navBar_items">
+                    <a class="navBar_link" href="#home"> Home </a>
+                    <a class="navBar_link" href="#about"> About </a>
+                    <a class="navBar_link" href="#contact"> Contact </a>
+                </div>
+            </nav>   
+            <nav class="home" id="home" style="color: #FFF7FA;">
+                
+                <div class="hotel-1">
+                    <a href="https://www.tripadvisor.com/Hotel_Review-g16884615-d10175054-Reviews-Secrets_Cap_Cana_Resort_Spa-Cap_Cana_Punta_Cana_La_Altagracia_Province_Dominican_Re.html?m=19905"> <h4>Secrets Cap Cana Resort & Spa</h4> </a>
+                    <img src="/img/pc-presidential-bungalow.jpg">
+                    <h6>Resort à beira-mar que oferece uma variedade de opções gastronômicas com vista para o mar, restaurantes de destaque como Seaside Grill e El Patio, além de um café 24 horas por dia, 7 dias por semana. Apresenta um clube preferencial com comodidades exclusivas, equipe de entretenimento envolvente e opções de alimentação de alta qualidade em toda a propriedade.</h6>
+                </div>
+                <br>
+                <div class="hotel-2">
+                    <a href="https://www.tripadvisor.com/Hotel_Review-g304555-d302157-Reviews-Rambagh_Palace-Jaipur_Jaipur_District_Rajasthan.html?m=19905"><h4>Rambagh Palace</h4></a>
+                    <img src="/img/rambagh-palace-exterior.jpg">
+                    <h6>Fundado em 1901, o Taj Hotels Resorts and Palaces é um dos maiores e melhores grupos de hotéis da Ásia, compreendendo mais de 119 hotéis em 61 locais em toda a Índia, com mais 17 hotéis internacionais nas Maldivas, Malásia, Reino Unido, EUA, Butão, Sri Lanka, África e Médio Oriente. De marcos de renome mundial a modernos hotéis de negócios, de resorts de praia idílicos a autênticos Grandes Palácios, cada hotel Taj oferece uma fusão incomparável de hospitalidade indiana calorosa, serviço de classe mundial e luxo moderno.</h6>
+                </div>
+    
+            </nav>
+    
+            <br>
+    
+            <nav class="about" id="about" style="color: #FFF7FA;">
 
-    <!-- Corpo -->
-    <main>
-        <section id="home">
-            <h2>Seção Principal</h2>
-            <p>Este é o conteúdo principal da página.</p>
-            <img src="images/image1.png" width="320" height="320" alt="Descrição da Imagem">
-        </section>
+                <div>
 
-        <section id="about">
-            <h2>Sobre Nós</h2>
-            <p>Informações sobre a empresa ou indivíduo.</p>
-            <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-            </ul>
-        </section>
-    </main>
+                    <h4>QUEM SOMOS NÓS</h4>
+                    <h6>Somos uma equipe apaixonada por viagens e dedicada a proporcionar experiências inesquecíveis para nossos clientes. Com uma vasta experiência no setor hoteleiro e turístico, nossa missão é selecionar cuidadosamente os melhores hotéis para que você possa desfrutar de estadias confortáveis, seguras e memoráveis. Nosso processo de seleção é rigoroso e detalhado. Avaliamos diversos critérios, como localização, qualidade dos serviços, conforto das acomodações, avaliações de hóspedes e custo-benefício. Estamos constantemente atualizando nossas recomendações para garantir que oferecemos as melhores opções disponíveis no mercado. Acreditamos que cada viagem é única e merece uma hospedagem à altura. Por isso, nosso compromisso é entender suas necessidades e expectativas para sugerir hotéis que realmente atendam ao seu perfil. Seja uma viagem a negócios, férias em família, uma escapada romântica ou uma aventura solo, estamos aqui para ajudar você a encontrar o lugar perfeito para se hospedar.</h6>
 
-    <!-- Rodapé -->
-    <footer>
-        <p>&copy; 2024 Melhores Hotéis. Todos os direitos reservados.</p>
-    </footer>
+                </div>
+    
+            </nav>
 
-</body>
+            <br>
+
+            <nav class="contact" id="contact" style="color: #FFF7FA;">
+
+                <div>
+
+                    <h4>CONTATO</h4>
+                    <h6>
+                        Telefone: (11) 1234-5678
+                        WhatsApp: (11) 91234-5678
+                        E-mail: contato@melhoreshoteis.com
+                        <br>
+                        Endereço:
+                        Rua das Viagens, 100
+                        Bairro dos Destinos
+                        Cidade das Aventuras, SP
+                        CEP: 01234-567
+                        <br>
+                        Horário de Atendimento:
+                        Segunda a Sexta: 9h às 18h
+                        Sábado: 9h às 13h
+                        Domingo e feriados: Fechado
+                        <br>
+                        Siga-nos nas redes sociais:
+                        Facebook: facebook.com/melhoreshoteis
+                        Instagram: instagram.com/melhoreshoteis
+                        Twitter: twitter.com/melhoreshoteis
+                        <br>
+                        Estamos à disposição para tirar suas dúvidas e ajudar você a planejar a viagem dos seus sonhos. Entre em contato conosco!
+                    </h6>
+
+                </div>
+    
+            </nav>
+            
+            <footer>
+                <p> 2024 Melhores Hotéis. Todos os direitos reservados.</p>
+            </footer>
+            
+
+
+
+        </div>
+
+    </body>
+    
+
+
 </html>
-
