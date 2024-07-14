@@ -12,7 +12,7 @@ html, body {
 }
 
 body{
-    background-image: url("/img/fotodefundo.jpg");
+    background-image: url("/assets/img/fotodefundo.jpg");
     font-family: gotham, arial, helvetica, sans-serif;
     font-size: 18px;
     padding: 0;
